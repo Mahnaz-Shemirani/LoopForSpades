@@ -1,4 +1,5 @@
-# LoopForSpades
+
+#Loop For Spades for assembly R1 and R2
 
 
 for i in {1..N}
@@ -12,7 +13,7 @@ dome
 
 #Example
 
-#I have pair reads of EC (NAME) strats from 1 to 2019 and I'm at the directory where the files are, so I don't give RESOURCE PATH
+#pair reads of EC (NAME) strats from 1 to 2019 along with being at the directory where the files exist, therefore RESOURCE PATH is eliminates
 
 for i in {1..2019}
 
