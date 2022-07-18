@@ -3,6 +3,7 @@
 
 #assembly R1 and R2
 
+'''
 
 for i in {1..N}
 
@@ -12,6 +13,7 @@ spades.py --careful --cov-cutoff 5(value) --pe1-1 '/RESOURCE PATH/NAME${i}R1.fas
 
 done
 
+'''
 
 #Example
 
