@@ -6,8 +6,8 @@ for i in {1..N}
 
 do
 
-spades.py --careful --cov-cutoff 5(value) --pe1-1 '/RESOURCE PATH/NAME${i}__R1.fastq.gz' --pe1-2 _'_/RESOURCE PATH/NAME${i}_R2.fastq.gz' -o /DESTINATION PATH/NAME${i}
-_
+spades.py --careful --cov-cutoff 5(value) --pe1-1 '/RESOURCE PATH/NAME${i}__R1.fastq.gz' --pe1-2 _'_/RESOURCE PATH/NAME${i}__R2.fastq.gz' -o /DESTINATION PATH/NAME${i}
+__
 dome
 
 
