@@ -3,27 +3,24 @@
 
 #assembly R1 and R2
 
-'''
 
-for i in {1..N}
+    for i in {1..N}
 
-do
+    do
 
-spades.py --careful --cov-cutoff 5(value) --pe1-1 '/RESOURCE PATH/NAME${i}R1.fastq.gz' --pe1-2 '/RESOURSE PATH/NAME${i}__R2.fastq.gz -o /DESTINATION PATH/NAME${i}'
+    spades.py --careful --cov-cutoff 5(value) --pe1-1 '/RESOURCE PATH/NAME${i}R1.fastq.gz' --pe1-2 '/RESOURSE PATH/NAME${i}__R2.fastq.gz -o /DESTINATION PATH/NAME${i}'
 
-done
+    done
 
-'''
 
 #Example
 
 #pair reads of EC (NAME) strats from 1 to 2019 along with being at the directory where the files exist, therefore RESOURCE PATH is eliminates
 
-for i in {1..2019}
+    for i in {1..2019}
 
-do
+    do
 
-spades.py --careful --cov-cuoff 5 --pe1-1 'EC${i}_R1.fastq.gz' --pe1-2 'EC${i}_R2.fastq.gz' -o '/media/mahnaz/spades_out/EC${i}'
+    spades.py --careful --cov-cuoff 5 --pe1-1 'EC${i}_R1.fastq.gz' --pe1-2 'EC${i}_R2.fastq.gz' -o '/media/mahnaz/spades_out/EC${i}'
 
-done
-
+    done
