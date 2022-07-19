@@ -13,7 +13,7 @@
     done
 
 
-#Example
+#Example from bacterial WGS data: 
 
 #pair reads of EC (NAME) strats from 1 to 2019 along with being at the directory where the files exist, therefore RESOURCE PATH is eliminates
 
