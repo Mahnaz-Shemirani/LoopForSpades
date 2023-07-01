@@ -1,5 +1,5 @@
 
-# Loop For Spades 
+# Loop For Spades paper: https://doi.org/10.1186/s12879-022-07977-0
 
 #assembly R1 and R2
 
